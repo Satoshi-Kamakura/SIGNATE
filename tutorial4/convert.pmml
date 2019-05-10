@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PMML version="4.2" xmlns="http://www.dmg.org/PMML-4_2" xmlns:pmml="http://www.dmg.org/PMML-4_0">
+  <Header copyright="satoshi">
+    <Application name="KNIME" version="3.7.1"/>
+  </Header>
+  <DataDictionary numberOfFields="34">
+    <DataField name="id" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="1.0" rightMargin="27128.0"/>
+    </DataField>
+    <DataField name="age" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="18.0" rightMargin="95.0"/>
+    </DataField>
+    <DataField name="education" optype="categorical" dataType="string">
+      <Value value="secondary"/>
+      <Value value="primary"/>
+      <Value value="tertiary"/>
+      <Value value="unknown"/>
+    </DataField>
+    <DataField name="default" optype="categorical" dataType="string">
+      <Value value="no"/>
+      <Value value="yes"/>
+    </DataField>
+    <DataField name="balance" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="-6847.0" rightMargin="102127.0"/>
+    </DataField>
+    <DataField name="housing" optype="categorical" dataType="string">
+      <Value value="yes"/>
+      <Value value="no"/>
+    </DataField>
+    <DataField name="loan" optype="categorical" dataType="string">
+      <Value value="no"/>
+      <Value value="yes"/>
+    </DataField>
+    <DataField name="duration" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="4918.0"/>
+    </DataField>
+    <DataField name="campaign" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="1.0" rightMargin="63.0"/>
+    </DataField>
+    <DataField name="pdays" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="-1.0" rightMargin="871.0"/>
+    </DataField>
+    <DataField name="previous" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="275.0"/>
+    </DataField>
+    <DataField name="y" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="blue-collar_job" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="entrepreneur_job" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="management_job" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="retired_job" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="services_job" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="technician_job" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="admin._job" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="self-employed_job" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="housemaid_job" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="unemployed_job" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="unknown_job" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="student_job" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="married_marital" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="single_marital" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="divorced_marital" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="cellular_contact" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="unknown_contact" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="telephone_contact" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="unknown_poutcome" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="failure_poutcome" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="success_poutcome" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="other_poutcome" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+  </DataDictionary>
+  <TransformationDictionary>
+    <DerivedField name="default (to number)" optype="continuous" dataType="integer">
+      <Extension name="summary" extender="KNIME" value="Generated by KNIME - Category2Number node"/>
+      <MapValues outputColumn="out" dataType="integer">
+        <FieldColumnPair field="default" column="in"/>
+        <InlineTable>
+          <row>
+            <pmml:in>no</pmml:in>
+            <pmml:out>0</pmml:out>
+          </row>
+          <row>
+            <pmml:in>yes</pmml:in>
+            <pmml:out>1</pmml:out>
+          </row>
+        </InlineTable>
+      </MapValues>
+    </DerivedField>
+    <DerivedField name="housing (to number)" optype="continuous" dataType="integer">
+      <Extension name="summary" extender="KNIME" value="Generated by KNIME - Category2Number node"/>
+      <MapValues outputColumn="out" dataType="integer">
+        <FieldColumnPair field="housing" column="in"/>
+        <InlineTable>
+          <row>
+            <pmml:in>yes</pmml:in>
+            <pmml:out>0</pmml:out>
+          </row>
+          <row>
+            <pmml:in>no</pmml:in>
+            <pmml:out>1</pmml:out>
+          </row>
+        </InlineTable>
+      </MapValues>
+    </DerivedField>
+    <DerivedField name="loan (to number)" optype="continuous" dataType="integer">
+      <Extension name="summary" extender="KNIME" value="Generated by KNIME - Category2Number node"/>
+      <MapValues outputColumn="out" dataType="integer">
+        <FieldColumnPair field="loan" column="in"/>
+        <InlineTable>
+          <row>
+            <pmml:in>no</pmml:in>
+            <pmml:out>0</pmml:out>
+          </row>
+          <row>
+            <pmml:in>yes</pmml:in>
+            <pmml:out>1</pmml:out>
+          </row>
+        </InlineTable>
+      </MapValues>
+    </DerivedField>
+  </TransformationDictionary>
+</PMML>
