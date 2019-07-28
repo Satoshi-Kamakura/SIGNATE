@@ -1,0 +1,33 @@
+Warning:
+train:
+mseki_yt_hb is highly correlated with chiseki_kb_hb (ρ = 0.92233) 
+niwasaki_std is highly skewed (γ1 = 74.096) 
+road_st has 79 / 1.2% zeros　★⇒問題なし
+tc_mseki_max_hb is highly skewed
+tt_avg_rt has 89 / 1.4% missing values ★
+
+test:
+tateuri_su has 59 / 1.4% zeros Zeros ★
+tc_avg_rt is highly skewed (γ1 = -29.844) Skewed
+tc_min_rt is highly skewed (γ1 = 37.928)
+tc_mseki_max_hb is highly correlated with tc_mseki (ρ = 0.92994)
+
+Variables:
+chiseki_jh_hb:
+ train mean:736
+ test_mean:667
+ 
+ haoku_hb
+  train_mean : 42.4
+  test_mean : 36.9
+  
+ mseki_rd_hb
+  train_mean : 55.685
+  test_mean: 39.829	
+  
+ niwasaki_std
+  分布が全然違う。正規化せずに元に戻した方が良いのでは。 
+  
+road_mg:
+ train_mean : 17.199
+ test_mean : 13.831
